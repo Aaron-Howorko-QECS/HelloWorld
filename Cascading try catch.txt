@@ -1,0 +1,24 @@
+Cascading Try-Catch, Parsing Data
+
+
+
+String -> input + output          |	try --> Catch --> try |  ex "1"
+					  error		      | Y  Parse to string
+Boolean -> output		  |			      | N  Parse to int
+							      |
+integer -> Digit		  |	what is the order     | ex "true"
+					for parsing using     | N Parse to int,double,boolean
+Double|float -> Digits + Decimal  |	try catch?	      | Y parser to string
+
+First, Secound, Third?
+
+_______________________________________________________________________________________________
+
+				"3"   "3.0"  "3'"  
+String		| order | String
+		|	| Boolean
+Boolean		|	| D|F
+		|	| Int
+Integer		|	|
+		|	|
+Double\Float	|	|
